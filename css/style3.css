@@ -1,0 +1,83 @@
+/* bigger screens */
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    .hamburger-checkbox {
+        display: none;
+    }
+    .mecont {
+        display: none;
+    }
+    div.sub2 {
+        display: none;
+    }
+    .Talents-container1 .videosection1 li,
+    .Talents-container3 .videosection3 li {
+        font-weight: 650;
+        line-height: 9rem;
+        font-size: 25px;
+    }
+    .Talents-container2 .videosection2 li {
+        font-weight: 650;
+        line-height: 8rem;
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    .Talents-container2 .videosection2 .btn-group2{
+        margin-left: 5%;
+    }
+    /* Cube */
+    video#videocube,
+    video#videospin {
+        width: 20%;
+        height: auto;
+        border-radius: 32px;
+        margin-right: 5%;
+        float: left;
+        box-shadow: 0 0 25px var(--main-color);
+        transition: 0.3s ease-in-out;
+    }
+    video#videocube:hover,
+    video#videospin:hover  {
+        box-shadow: 0 0 25px var(--main-color),
+        0 0 50px var(--main-color),
+        0 0 20px var(--main-color)
+    }
+    .RBcube .btn {
+        margin-top: 2%;
+    }
+    .knife .btn {
+        margin-top: 2%;
+    }
+    .PS .btn{
+        margin-top: 2%;
+    }
+    
+    .rubtextmobile{
+    display: none;
+}
+
+/* knife */
+    video#videoknife {
+        width: 20%;
+        height: auto;
+        border-radius: 32px;
+        margin-left: 5%;
+        float: right;
+        box-shadow: 0 0 25px var(--main-color);
+        transition: 0.3s ease-in-out;
+    }
+    video#videoknife:hover {
+        box-shadow: 0 0 25px var(--main-color),
+        0 0 50px var(--main-color),
+        0 0 20px var(--main-color)
+    }
+
+    /* title */
+    .hobbies-info h4 {
+        font-size: 2.69rem;
+        margin: 2rem 0;
+        font-weight: 800rem;
+    }
+}
